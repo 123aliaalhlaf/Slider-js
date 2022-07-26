@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 95%;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.container .container-img{
+    width: 32%;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 30px;
+
+}
+    .container .container-img img{
+        width: 93%;
+        height: 370px; 
+        position: relative;
+    }
+    .center{
+        width: 95%;
+        margin-left: 60px;
+        cursor: pointer;
+
+    }
+    .center .center-img{
+        width: 32%;
+        float: left;
+        overflow: hidden;
+        box-sizing: border-box;
+        margin-top: 30px;
+    
+    }
+        .center .center-img img{
+            width: 93%;
+            height: 370px; 
+            position: relative;
+            position: relative;
+
+        }
+        .count{
+            width: 95%;
+            margin-left: 60px;
+            cursor: pointer;
+
+        }
+        .count .count-img{
+            width: 32%;
+            float: left;
+            overflow: hidden;
+            box-sizing: border-box;
+            margin-top: 30px;
+        
+        }
+            .count .count-img img{
+                width: 93%;
+                height: 370px; 
+                position: relative;
+                padding-bottom: 30px;
+                position: relative;
+
+            }
+p{
+    font-size: 16px;
+    width: 80%;
+    margin-left: 38px;
+    
+}
+h2{
+    font-size: 24px;
+    text-align: center;
+
+}
+.info{
+    position: absolute;
+    top: 250px;
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    height: 120px;
+    width: 290px;
+    margin-left: 38px;
+    padding-top: 15px;
+}
+.info1{
+    position: absolute;
+    top: 250px;
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    height: 120px;
+    width: 290px;
+    margin-left: 38px;
+    padding-top: 15px;
+}
+.info2{
+    position: absolute;
+    top: 250px;
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    height: 120px;
+    width: 290px;
+    margin-left: 38px;
+    padding-top: 15px;
+}
+.info3{
+    position: absolute;
+    top: 640px;
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    height: 120px;
+    width: 290px;
+    margin-left: 38px;
+    padding-top: 15px;
+}
+.info4{
+    position: absolute;
+    top: 640px;
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    height: 120px;
+    width: 290px;
+    margin-left: 38px;
+    padding-top: 15px;
+}
+.info5{
+    position: absolute;
+    top: 640px;
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    height: 120px;
+    width: 290px;
+    margin-left: 38px;
+    padding-top: 15px;
+}
+.info6{
+    position: absolute;
+    top: 1040px;
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    height: 120px;
+    width: 290px;
+    margin-left: 38px;
+    padding-top: 15px;
+}
+ #lightBoxContainer{
+     position: fixed;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background-color: rgba(0,0,0,0.8);
+     display: none;
+     justify-content: center;
+     align-items: center;
+
+}
+#lightBoxItem{
+    width: 70%;
+    height: 500px;
+    background-image: url(img/portfolio-1.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+}
+#lightBoxItem i{
+    font-size: 20px;
+    cursor: pointer;
+}
+#close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
